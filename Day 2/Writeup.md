@@ -1,30 +1,87 @@
-# OFA
+# Huntress CTF 2025 - 👶 OFA
 
-In this challenge, I was presented with the below visible login form:
+**CTF Name:** Huntress CTF 2025  
+**Challenge name:** 👶 OFA  
+**Challenge prompt:**  
+> Two factors? In this economy??!!  
 
-![Screenshot_2025-10-02_at_15.40.09.png](../assets/Screenshot_2025-10-02_at_15.40.09.png)
+**Challenge category:** Warmups  
+**Challenge points:** 10  
+
+* * *  
+
+## Steps to solve  
+
+In this challenge, I was presented with the below visible login form (accessible from the deployed CTF web-instance):
+
+![d5289c9af043.png](../assets/d5289c9af043.png)
 
 I tried `admin:admin` and next step was launched - asking for OTP code:
 
-![Screenshot_2025-10-02_at_15.40.27.png](../assets/Screenshot_2025-10-02_at_15.40.27.png)
+![795c23195198.png](../assets/795c23195198.png)
 
 Of course, I did not know the OTP code, but in the website source code I found hardcoded value:
 
-![Screenshot_2025-10-02_at_15.43.21.png](../assets/Screenshot_2025-10-02_at_15.43.21.png)
+![06c05bbdbd24.png](../assets/06c05bbdbd24.png)
 
 Once entered, flag was printed out on the screen:
 
-![Screenshot_2025-10-02_at_15.43.41.png](../assets/Screenshot_2025-10-02_at_15.43.41.png)
+![f836d1bab906.png](../assets/f836d1bab906.png)
 
-# Spaghetti
+**FLAG:** flag{013cb9b123afec26b572af5087364081}
+
+# Huntress CTF 2025 - 🐞 Spaghetti
+
+**CTF Name:** Huntress CTF 2025  
+**Challenge name:** 🐞 Spaghetti  
+**Challenge prompt:**  
+> You know, I've been thinking... at the end of the day, spaghetti is really just strings of pasta!  
+> Anyway, we saw this weird file running on startup. Can you figure out what this is?  
+> I'm sure you'll get more understanding of the questions below as you explore!  
+
+```
+CAUTION
+
+This is the Malware category, and as such, includes malware. Please be sure to analyze these files within an isolated virtual machine.  
+```
+
+```
+IMPORTANT
+
+The ZIP archive password is "infected".
+```
+
+```
+NOTE
+
+You may find a public paste URL that is expired. This is an artifact of the original malware sample and is intentional. This URL is not necessary for the challenge.
+```
+
+**Challenge category:** Malware  
+**Challenge points:** 10 (4 for the 1st flag, 3 for 2nd, 3 for 3rd)  
+
+* * *  
+
+## Steps to solve  
 
 Once downloaded zip file was extracted, I decided to run strings command against `spaghetti` binary. Lots of code was printed out, but with help of other linux tools (such as `uniq`) I managed to find couple of interesting parts.
 
 ## 1st flag
 
+### MainFileSettings
+
+**Prompt:**  
+> Uncover the flag within the "main file."
+
+```
+NOTE
+
+Once you uncover the intended payload, you shouldn't need to do any further analysis. Use context clues from the challenge description and you should find the flag.
+```
+
 One of the parts that were interesting to me, were lines featuring `MainFileSetting`, thus I used `grep` to find all occurrences that include this string (with one preceding, and one following lines included). Next (to gain more context) I did `grep` for lines including `filePath` string:
 
-![Pasted_image_20251002163140.png](../assets/Pasted_image_20251002163140.png)
+![9e8a18770c16.png](../assets/9e8a18770c16.png)
 
 These two findings above allowed me to gain foundational understanding of the malware, which replaces every occurrence of `WT` to `00` in the `AYGIW.tmp` file during the runtime - possibly to stay covert.
 
@@ -32,9 +89,16 @@ To mimic this action, I issued `sed -i 's/WT/00/g' AYGIW.tmp` in the terminal.
 
 Later I piped `AYGIW.tmp` contents to the `xxd -r -p` that read a plain hexadecimal dump and reconstructed the original binary data from it. This allowed me to use `grep` to find the flag:
 
-![Pasted_image_20251006160514.png](../assets/Pasted_image_20251006160514.png)
+![220b0985a694.png](../assets/220b0985a694.png)
+
+**FLAG:** flag{39544d3b5374ebf7d39b8c260fc4afd8}
 
 ## 2nd flag
+
+### My Fourth Oasis
+
+**Prompt:**
+> Uncover the flag within "my fourth oasis."
 
 Another interesting part was `MyOasis`:
 
@@ -136,11 +200,18 @@ $KTMJX = [Byte[) ($TLML,$PURX,$YNWL,$RTGX,+$XVON,+$WRUD)
 
 The code above contained HTML entities, so I decided to use CyberChef and add HTML decode action:
 
-![Pasted_image_20251002162910.png](../assets/Pasted_image_20251002162910.png)
+![ff55b4927d27.png](../assets/ff55b4927d27.png)
 
-Decoding succeeded with uncovering the flag: flag{b313794dcef335da6206d54af81b6203}`
+Decoding succeeded with uncovering the flag.
+
+**FLAG:** flag{b313794dcef335da6206d54af81b6203}
 
 ## 3rd flag
+
+### MEMEMAN
+
+**Prompt:**
+> Uncover the flag beside "MEMEMAN."
 
 Similarly, I decoded second part from binary:
 
@@ -203,3 +274,5 @@ Between the lines, I found the flag:
 ```
 # Add-MpPreference -ExclusionExtension "flag{60814731f508781b9a5f8636c817af9d}"
 ```
+
+**FLAG:** flag{60814731f508781b9a5f8636c817af9d}
