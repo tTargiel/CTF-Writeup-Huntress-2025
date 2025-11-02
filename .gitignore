@@ -211,5 +211,6 @@ pyrightconfig.json
 # Custom ignores
 rename.sh
 rename.py
+find_and_replace_regex.txt
 
 
