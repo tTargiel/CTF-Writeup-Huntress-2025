@@ -1,0 +1,66 @@
+undefined8 main(void)
+
+{
+  __uid_t __ruid;
+  int iVar1;
+  char *pcVar2;
+  undefined8 uVar3;
+  code *__buf;
+  ssize_t sVar4;
+  long in_FS_OFFSET;
+  char local_b8 [32];
+  char local_98 [136];
+  long local_10;
+  
+  local_10 = *(long *)(in_FS_OFFSET + 0x28);
+  builtin_strncpy(local_b8,"/tmp/jail-XXXXXX",0x11);
+  setup();
+  __ruid = geteuid();
+  setreuid(__ruid,0xffffffff);
+  pcVar2 = mkdtemp(local_b8);
+  if (pcVar2 == (char *)0x0) {
+    perror("mkdtemp");
+    uVar3 = 1;
+  }
+  else {
+    printf("Creating jail at: %s\n",local_b8);
+    puts("Which file would you like to open?");
+    __isoc99_scanf(&DAT_0010204b,local_98);
+    pcVar2 = strstr(local_98,"flag");
+    if (pcVar2 == (char *)0x0) {
+      iVar1 = chroot(local_b8);
+      if (iVar1 == 0) {
+        iVar1 = open("/flag",0x41);
+        write(iVar1,"FLAG{FAKE}",10);
+        close(iVar1);
+        __buf = (code *)mmap((void *)0x1337000,0x1000,7,0x22,0,0);
+        if (__buf != (code *)0x1337000) {
+          perror("mmap");
+        }
+        puts("What would you like me to run next? ");
+        sVar4 = read(0,__buf,0x1000);
+        if ((int)sVar4 == 0) {
+          puts("Nothing read in, goodbye");
+          uVar3 = 0;
+        }
+        else {
+          (*__buf)();
+          uVar3 = 0;
+        }
+      }
+      else {
+        perror("chroot");
+        uVar3 = 1;
+      }
+    }
+    else {
+      puts("Cannot open flag based files");
+      uVar3 = 1;
+    }
+  }
+  if (local_10 != *(long *)(in_FS_OFFSET + 0x28)) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return uVar3;
+}
