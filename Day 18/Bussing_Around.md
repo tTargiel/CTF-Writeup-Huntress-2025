@@ -27,7 +27,7 @@ While manually inspecting the packets, I started looking for anomalies or patter
 To efficiently extract this suspected binary data, I needed to isolate only the relevant packets and their values. I focused on the server's responses by filtering for the destination IP `172.20.10.6` and the specific unit ID `38`. I constructed a tshark command to automate this process and output the register values directly to a file:
 
 ```bash
-tshark -r ./bussing_around.pcapng -Y "(mbtcp.unit_id ==38) && (ip.dst == 172.20.10.6)" -T fields -e modbus.regval_uint16 > modbus.txt
+tshark -r ./bussing_around.pcapng -Y "(mbtcp.unit_id == 38) && (ip.dst == 172.20.10.6)" -T fields -e modbus.regval_uint16 > modbus.txt
 ```
 
 I took the resulting `modbus.txt` file and loaded it into CyberChef. Using the "From Binary" recipe, CyberChef correctly identified the "PK" magic bytes at the beginning of the data, confirming that the binary stream was, in fact, a ZIP archive:
