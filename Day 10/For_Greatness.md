@@ -1,8 +1,8 @@
-# Huntress CTF 2025 - 🐞 For Greatness  
+# Huntress CTF 2025 - 🐞 For Greatness
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 🐞 For Greatness  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 🐞 For Greatness
+**Challenge prompt:**
 > Oh great, another phishing kit. This has some functionality to even send stolen data over email! Can you track down the email address they send things to?
 
 ```
@@ -13,12 +13,12 @@ This is the Malware category, and as such, includes malware. Please be sure to a
 
 > The password to the archive is "infected". Uncover the flag from the file provided.
 
-**Challenge category:** Malware  
-**Challenge points:** 10  
+**Challenge category:** Malware
+**Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 In this challenge, we were given access to the malware that is supposed to contin flag value hidden somewhere.
 
@@ -147,4 +147,4 @@ Last step of all these transformations was to base64 decode `$___________` varia
 
 Once reversed, we get the flag.
 
-**FLAG:** flag{f791310cef49f4d25d0778107033117f}  
+**FLAG:** flag{f791310cef49f4d25d0778107033117f}

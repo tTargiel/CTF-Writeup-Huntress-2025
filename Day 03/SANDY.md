@@ -1,8 +1,8 @@
-# Huntress CTF 2025 - 🐞 SANDY  
+# Huntress CTF 2025 - 🐞 SANDY
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 🐞 SANDY  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 🐞 SANDY
+**Challenge prompt:**
 > My friend Sandy is really into cryptocurrencies! She's been trying to get me into it too, so she showed me a lot of Chrome extensions I could add to manage my wallets. Once I got everything sent up, she gave me this cool program!
 > She says it adds better protection so my wallets can't get messed with by hackers.
 > Sandy wouldn't lie to me, would she...? Sandy is the best!
@@ -15,12 +15,12 @@ This is the Malware category, and as such, includes malware. Please be sure to a
 
 The password to the archive is "infected".
 
-**Challenge category:** Malware  
-**Challenge points:** 10  
+**Challenge category:** Malware
+**Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 In this challenge, I downloaded and extracted SANDY.zip archive. As a result, I was left with SANDY.exe
 
@@ -53,8 +53,8 @@ I decoded all of them using `base64 -d SANDY-base64.txt > SANDY-base64-decoded.t
 Decoded file contained more base64 - I was especially interested in the part, which was longer than the other ones (`$encodedJson`). It was a good call, as after another round of decoding, I found the flag:
 
 ```
- base64 -d SANDY-base64-interesting.txt 
-$pathdata = 
+ base64 -d SANDY-base64-interesting.txt
+$pathdata =
 @'
 [
     {
@@ -103,4 +103,4 @@ $pathdata =
 '@;
 ```
 
-**FLAG:** flag{27768419fd176648b335aa92b8d2dab2}  
+**FLAG:** flag{27768419fd176648b335aa92b8d2dab2}

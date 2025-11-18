@@ -1,8 +1,8 @@
-# Huntress CTF 2025 - 🐞 My Hawaii Vacation  
+# Huntress CTF 2025 - 🐞 My Hawaii Vacation
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 🐞 My Hawaii Vacation  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 🐞 My Hawaii Vacation
+**Challenge prompt:**
 > Oh jeeeez... I was on Booking.com trying to reserve my Hawaii vacation.
 > Once I tried verifying my ID, suddenly I got all these emails saying that my password was changed for a ton of different websites!! What is happening!?!
 > I had a flag.txt on my desktop, but that's probably not important...
@@ -14,12 +14,12 @@ CAUTION
 This is the Malware category, and as such, includes malware. Please be sure to analyze these files within an isolated virtual machine.
 ```
 
-**Challenge category:** Malware  
+**Challenge category:** Malware
 **Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 This challenge required connection to the CTF-provided web-instance.
 
@@ -34,12 +34,12 @@ Once we enter required data and press "Done" button - `.exe` file is downloaded 
 I transferred this newly downloaded file for quick analysis:
 
 ```bash
-$ file Booking\ -\ ID\ Verification.exe 
+$ file Booking\ -\ ID\ Verification.exe
 Booking - ID Verification.exe: PE32 executable (console) Intel 80386, for MS Windows
 ```
 
 ```bash
-$ strings -n 8 Booking\ -\ ID\ Verification.exe 
+$ strings -n 8 Booking\ -\ ID\ Verification.exe
 !This program cannot be run in DOS mode.
 T$$PRh`:@
 L$$@WPQh
@@ -86,7 +86,7 @@ I installed `lua5.2` and executed `test.lua`. The result was very rewarding:
 ```
 261	.log
 262	powershell.exe -NoProfile -Command "(Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList\
-263	').Sid > 
+263	').Sid >
 264	"
 265	http://10.1.210.149/a9GeV5t1FFrTqNXUN2vaq93mNKfSDqESBn2IlNiGRvh6xYUsQFEk4rRo8ajGA7fiEDe1ugdmAbCeqXw6y0870YkBqU1hrVTzgDIHZplop8WAWTiS3vQPOdNP
 266	prometheus
@@ -145,4 +145,4 @@ I used it as an archive password - and successfully accessed `flag.txt` contents
 
 ![72877695757e.png](../assets/72877695757e.png)
 
-**FLAG:** flag{0a741a06d3b8227f75773e3195e1d641}  
+**FLAG:** flag{0a741a06d3b8227f75773e3195e1d641}

@@ -1,18 +1,18 @@
-# Huntress CTF 2025 - 🔍 Puzzle Pieces Redux  
+# Huntress CTF 2025 - 🔍 Puzzle Pieces Redux
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 🔍 Puzzle Pieces Redux  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 🔍 Puzzle Pieces Redux
+**Challenge prompt:**
 > Well, I accidentally put my important data into a bunch of executables... just don't ask, okay?
 > It was fine... until my cat Sasha stepped on my keyboard and messed everything up! OH NOoOoO00!!!!!111
 > Can you help me recover my important data?
 
-**Challenge category:** Forensics  
+**Challenge category:** Forensics
 **Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 After downloading and extracting the ZIP file, I found a bunch of `.bin` files:
 
@@ -107,4 +107,4 @@ c54940df1ba.bin: 02}
 
 Combining them yielded the correct flag.
 
-**FLAG:** flag{be7a1e6817d85d549f8b5abfaf18ba02}  
+**FLAG:** flag{be7a1e6817d85d549f8b5abfaf18ba02}

@@ -1,19 +1,19 @@
-# Huntress CTF 2025 - 🔍 Trashcan  
+# Huntress CTF 2025 - 🔍 Trashcan
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 🔍 Trashcan  
-**Challenge prompt:**  
-> Have you ever done forensics on the Recycle Bin? It's... a bit of a mess. Looks like the threat actor pulled some tricks to hide data here though.  
-> The metadata might not be what it should be. Can you find a flag?  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 🔍 Trashcan
+**Challenge prompt:**
+> Have you ever done forensics on the Recycle Bin? It's... a bit of a mess. Looks like the threat actor pulled some tricks to hide data here though.
+> The metadata might not be what it should be. Can you find a flag?
 
-**Challenge category:** Forensics  
-**Challenge points:** 10  
+**Challenge category:** Forensics
+**Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
-In this challenge, we were given `trashcan.zip` file. To proceed with analysis, I downloaded the file to my REMnux VM and extracted the contents:  
+In this challenge, we were given `trashcan.zip` file. To proceed with analysis, I downloaded the file to my REMnux VM and extracted the contents:
 
 ![890fa190b11d.png](../assets/890fa190b11d.png)
 
@@ -44,4 +44,4 @@ After the script was executed, the flag emerged:
 
 ![4c19391dd8e8.png](../assets/4c19391dd8e8.png)
 
-**FLAG:** flag{1d2b2b05671ed1ee5812678850d5e329}  
+**FLAG:** flag{1d2b2b05671ed1ee5812678850d5e329}

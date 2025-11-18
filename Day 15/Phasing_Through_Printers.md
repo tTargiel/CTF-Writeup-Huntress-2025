@@ -1,8 +1,8 @@
-# Huntress CTF 2025 - 📦 Phasing Through Printers  
+# Huntress CTF 2025 - 📦 Phasing Through Printers
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 📦 Phasing Through Printers  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 📦 Phasing Through Printers
+**Challenge prompt:**
 > I found this printer on the network, and it seems to be running... a weird web page... to search for drivers?
 > Here is some of the code I could dig up.
 
@@ -18,12 +18,12 @@ IMPORTANT
 The password to the ZIP archive below is "phasing_through_printers".
 ```
 
-**Challenge category:** Miscellaneous  
+**Challenge category:** Miscellaneous
 **Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 In this challenge we were given both - archive containing source code of the web-application and web-instance running web-app used to find printer drivers.
 
@@ -67,4 +67,4 @@ I exploited this flaw to read `/root/flag.txt`:
 
 ![0e19df2fc7cd.png](../assets/0e19df2fc7cd.png)
 
-**FLAG:** flag{93541544b91b7d2b9d61e90becbca309}  
+**FLAG:** flag{93541544b91b7d2b9d61e90becbca309}

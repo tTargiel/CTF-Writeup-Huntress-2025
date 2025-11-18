@@ -1,18 +1,18 @@
-# Huntress CTF 2025 - 🔍 Bussing Around  
+# Huntress CTF 2025 - 🔍 Bussing Around
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 🔍 Bussing Around  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 🔍 Bussing Around
+**Challenge prompt:**
 > One of the engineers noticed that an HMI was going haywire.
 > He took a packet capture of some of the traffic but he can't make any sense of it... it just looks like gibberish!
 > For some reason, some of the traffic seems to be coming from someone's computer. Can you help us figure out what's going on?
 
-**Challenge category:** Forensics  
+**Challenge category:** Forensics
 **Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 In this challenge we `bussing_around.pcapng` file.
 
@@ -38,4 +38,4 @@ Looking at the CyberChef output, I noticed a plain text string at the very end o
 
 ![55e33c5b3d46.png](../assets/55e33c5b3d46.png)
 
-**FLAG:** flag{4d2a66c5ed8bb8cd4e4e1ab32c71f7a3}  
+**FLAG:** flag{4d2a66c5ed8bb8cd4e4e1ab32c71f7a3}

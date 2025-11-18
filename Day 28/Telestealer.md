@@ -1,8 +1,8 @@
-# Huntress CTF 2025 - 🐞 Telestealer  
+# Huntress CTF 2025 - 🐞 Telestealer
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 🐞 Telestealer  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 🐞 Telestealer
+**Challenge prompt:**
 > Our threat intelligence team reported that Ben's data is actively being sold on the dark web. During the incident response, the SOC identified a suspicious JavaScript file within Ben's Downloads folder.
 > Can you recover the stolen data?
 
@@ -12,12 +12,12 @@ NOTE
 The password to the ZIP archive is "telestealer".
 ```
 
-**Challenge category:** Malware  
+**Challenge category:** Malware
 **Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 In this challenge, we were given a ZIP file containing some PowerShell code that combines several base64 strings. The initial snippet looks like this:
 
@@ -94,4 +94,4 @@ After running this, the first message containing the flag appeared at message ID
 1020{"ok":true,"result":{"message_id":2410,[...],"text":"flag{5f5b173825732f5404acf2f680057153}"}}
 ```
 
-**FLAG:** flag{5f5b173825732f5404acf2f680057153}  
+**FLAG:** flag{5f5b173825732f5404acf2f680057153}

@@ -1,8 +1,8 @@
-# Huntress CTF 2025 - 🕵️ Follow the Money - The Sequel  
+# Huntress CTF 2025 - 🕵️ Follow the Money - The Sequel
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 🕵️ Follow the Money - The Sequel  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 🕵️ Follow the Money - The Sequel
+**Challenge prompt:**
 ```
 WARNING
 
@@ -24,12 +24,12 @@ IMPORTANT
 This challenge uses a non-standard flag format.
 ```
 
-**Challenge category:** OSINT  
+**Challenge category:** OSINT
 **Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 This challenge is a sequel to the previous one [Follow the Money](../Day%2021/Follow_the_Money.md), so we pick up right where we left off. The hacker's blog at https://n0trustx-blog.netlify.app/ was our starting point, along with checking their GitHub profile at https://github.com/N0TrustX/. From these, we gathered two key pieces of information: the attacker's username and email. I ran OSINT searches on both using https://osint.rocks and https://instantusername.com, but the results were not fully satisfactory.
 
@@ -65,4 +65,4 @@ Googling best coffee in Wytheville led me to "The Grind" the top-rated cafe. I l
 
 The flag was hidden right there in the review: `Flag{this_is_good_java}`.
 
-**FLAG:** Flag{this_is_good_java}  
+**FLAG:** Flag{this_is_good_java}

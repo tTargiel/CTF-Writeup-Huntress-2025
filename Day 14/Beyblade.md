@@ -1,8 +1,8 @@
-# Huntress CTF 2025 - 🔍 Beyblade  
+# Huntress CTF 2025 - 🔍 Beyblade
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 🔍 Beyblade  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 🔍 Beyblade
+**Challenge prompt:**
 > Sheesh! Some threat actor sure did let it rip on this host! We've been able to uncover a file that may help with incident response.
 
 ```
@@ -12,12 +12,12 @@ The password to the ZIP archive is "beyblade".
 This challenge has the flag MD5 hash value separated into chunks. You must uncover all of the different pieces and put them together with the "flag{" and "}" suffix to submit.
 ```
 
-**Challenge category:** Forensics  
+**Challenge category:** Forensics
 **Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 In this challenge we were given `beyblade.zip` archive, which inside contained `bayblade` file. I started recon with `file` command:
 
@@ -73,4 +73,4 @@ administrator|segment-8-of-8=58de
 
 Once obtained, they could be combined to form whole flag.
 
-**FLAG:** flag{47cb5cd46d7bb34a0d9c315a99bb58de}  
+**FLAG:** flag{47cb5cd46d7bb34a0d9c315a99bb58de}

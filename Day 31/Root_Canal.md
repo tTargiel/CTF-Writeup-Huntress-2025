@@ -1,8 +1,8 @@
-# Huntress CTF 2025 - 📦 Root Canal  
+# Huntress CTF 2025 - 📦 Root Canal
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 📦 Root Canal  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 📦 Root Canal
+**Challenge prompt:**
 > But what is the real root of the issue?
 > If you are using the VPN, you can SSH in to this challenge with:
 
@@ -11,12 +11,12 @@ Username: ctf
 Password: HuntressCTF2025
 ```
 
-**Challenge category:** Miscellaneous  
+**Challenge category:** Miscellaneous
 **Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 I used SSH to log into the machine with the provided credentials, my first step was to perform initial reconnaissance. A README.txt file in the home directory immediately stood out:
 
@@ -41,7 +41,7 @@ undefined8 hacked_kill(long param_1)
   int iVar3;
   undefined8 uVar4;
   undefined *puVar5;
-  
+
   plVar2 = module_previous;
   iVar3 = (int)*(undefined8 *)(param_1 + 0x68);
   if (iVar3 == 0xc) {
@@ -113,4 +113,4 @@ As expected, after removing the rootkit, a new directory named squiblydoo/ appea
 
 ![f70e4df3238a.png](../assets/f70e4df3238a.png)
 
-**FLAG:** flag{ce56efc41f0c7b45a7e32ec7117cf8b9}  
+**FLAG:** flag{ce56efc41f0c7b45a7e32ec7117cf8b9}

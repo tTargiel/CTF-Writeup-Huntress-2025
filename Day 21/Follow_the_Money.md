@@ -1,8 +1,8 @@
-# Huntress CTF 2025 - 🕵️ Follow The Money  
+# Huntress CTF 2025 - 🕵️ Follow The Money
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 🕵️ Follow The Money  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 🕵️ Follow The Money
+**Challenge prompt:**
 > Hey Support Team,
 > We had a bit of an issue yesterday that I need you to look into ASAP. There's been a possible case of money fraud involving our client, Harbor Line Bank. They handle a lot of transfers for real estate down payments, but the most recent one doesn't appear to have gone through correctly.
 > Here's the deal, we need to figure out what happened and where the money might have gone. The titling company is looping in their incident response firm to investigate from their end. I need you to quietly review things on our end and see what you can find. Keep it discreet and be passive.
@@ -20,12 +20,12 @@ NOTE
 The password to the ZIP archive below is "follow_the_money".
 ```
 
-**Challenge category:** OSINT  
+**Challenge category:** OSINT
 **Challenge points:** 10 (3 + 7)
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 In this challenge, we were given `follow_the_money.zip` archive file.
 
@@ -84,4 +84,4 @@ Decoding this payload revealed the flag:
 
 ![6021ca5d49da.png](../assets/6021ca5d49da.png)
 
-**FLAG:** flag{kl1zklji2dycqedj6ef6ymlrsf180d0f}  
+**FLAG:** flag{kl1zklji2dycqedj6ef6ymlrsf180d0f}

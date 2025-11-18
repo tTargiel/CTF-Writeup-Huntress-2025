@@ -1,8 +1,8 @@
-# Huntress CTF 2025 - 📦 Threat Actor Support Line  
+# Huntress CTF 2025 - 📦 Threat Actor Support Line
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 📦 Threat Actor Support Line  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 📦 Threat Actor Support Line
+**Challenge prompt:**
 > You've heard of RaaS, you've heard of SaaS... the Threat Actor Support Line brings the two together!
 > Upload the files you want encrypted, and the service will start up its own hacker computer (as the Administrator user with antivirus disabled, of course) and encrypt them for you!
 
@@ -12,12 +12,12 @@ WARNING
 Some players have reported that while researching material that might help them with this challenge, they have discovered some public malicious Github repositories that embed malware under the guise of a tool or utility. These are external to the Huntress CTF, and while there is always potential for malware in outside/untrusted software, please exercise caution if you explore unknown third-party resources.
 ```
 
-**Challenge category:** Miscellaneous  
+**Challenge category:** Miscellaneous
 **Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 After launching the instance, I started by investigating the web application. The website provided a very specific clue about the technology stack: `We use WinRAR 7.12 for handling archives, and it's, as the Internet kids say, BLAZINGLY FAST!!!11`:
 
@@ -53,4 +53,4 @@ Once on the system, finding the flag was straightforward. It was located in the 
 
 ![9a7cca570310.png](../assets/9a7cca570310.png)
 
-**FLAG:** flag{6529440ceec226f31a3b2dc0d0b06965}  
+**FLAG:** flag{6529440ceec226f31a3b2dc0d0b06965}

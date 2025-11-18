@@ -1,8 +1,8 @@
-# Huntress CTF 2025 - ⚒️ Trapped  
+# Huntress CTF 2025 - ⚒️ Trapped
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** ⚒️ Trapped  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** ⚒️ Trapped
+**Challenge prompt:**
 > Well... I'm trapped. Feels like I'm in jail. Can you get the flag?
 
 ```
@@ -21,12 +21,12 @@ This challenge intentionally has no browser-based connection. You must use the V
 nc $CHALLENGE_IP_ADDRESS 9999
 ```
 
-**Challenge category:** Binary Exploitation  
+**Challenge category:** Binary Exploitation
 **Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 In this challenge we were given `trapped` binary and access to the challenge running trapped on port 9999.
 
@@ -144,4 +144,4 @@ p.interactive()
 
 ![1284c55f4777.png](../assets/1284c55f4777.png)
 
-**FLAG:** flag{5f8c037a7ca4cb89c80174bca5eaf531}  
+**FLAG:** flag{5f8c037a7ca4cb89c80174bca5eaf531}

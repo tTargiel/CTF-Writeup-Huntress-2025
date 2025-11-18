@@ -1,8 +1,8 @@
-# Huntress CTF 2025 - 🔍 I Forgot  
+# Huntress CTF 2025 - 🔍 I Forgot
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 🔍 I Forgot  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 🔍 I Forgot
+**Challenge prompt:**
 > So.... bad news.
 > We got hit with ransomware.
 > And... worse news... we paid the ransom.
@@ -22,12 +22,12 @@ NOTE
 The archive password is "i_forgot".
 ```
 
-**Challenge category:** Forensics  
+**Challenge category:** Forensics
 **Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 In this challenge, `i_forgot.zip` file was provided. Once extracted, two files emerged: `flag.enc` and `memdump.dmp`. The first one is potentially out flag, but encrypted. The other one - as the name suggests - memory dump.
 
@@ -75,4 +75,4 @@ To proceed with decryption, I base64 encoded contents of `flag.enc` and pasted t
 
 ![f0a6b7bc0b5f.png](../assets/f0a6b7bc0b5f.png)
 
-**FLAG:** flag{fa838fa9823e5d612b25001740faca31}  
+**FLAG:** flag{fa838fa9823e5d612b25001740faca31}

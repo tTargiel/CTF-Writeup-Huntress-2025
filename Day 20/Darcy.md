@@ -1,17 +1,17 @@
-# Huntress CTF 2025 - 🔍 Darcy  
+# Huntress CTF 2025 - 🔍 Darcy
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 🔍 Darcy  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 🔍 Darcy
+**Challenge prompt:**
 > Darcy has apparently been having a lot of fun with a unique version control system.
 > She told me she hid a flag somewhere with her new tool and wants me to find it... I can't make any sense of it, can you?
 
-**Challenge category:** Forensics  
+**Challenge category:** Forensics
 **Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 After downloading and unpacking the provided ZIP file, I was left with a directory containing numerous files. My first instinct for challenges like this is to perform a quick, broad search for the flag format itself. I ran a recursive grep command:
 
@@ -33,4 +33,4 @@ This command combination instantly located the patch containing the flag and rev
 
 This confirmed the flag found by the initial grep search and demonstrated the intended solution path for the challenge.
 
-**FLAG:** flag{a0c1e852e1281d134f0ac2b8615183a3}  
+**FLAG:** flag{a0c1e852e1281d134f0ac2b8615183a3}

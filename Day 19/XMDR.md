@@ -1,18 +1,18 @@
-# Huntress CTF 2025 - 📦 XMDR  
+# Huntress CTF 2025 - 📦 XMDR
 
-**CTF Name:** Huntress CTF 2025  
-**Challenge name:** 📦 XMDR  
-**Challenge prompt:**  
+**CTF Name:** Huntress CTF 2025
+**Challenge name:** 📦 XMDR
+**Challenge prompt:**
 > We had a lot of fun helping the Internet understand what MDRs are, but we thought of the next the best thing:
 why not have you use one! 😄
 > A host that you protect had some strange alerts fire off... can you analyze and triage to find other malicious activity?
 
-**Challenge category:** Miscellaneous  
+**Challenge category:** Miscellaneous
 **Challenge points:** 10
 
-* * *  
+* * *
 
-## Steps to solve  
+## Steps to solve
 
 After connecting to the instance, I was presented with a custom dashboard:
 
@@ -48,4 +48,4 @@ Decoding this string revealed the flag:
 
 ![aa37c86d461f.png](../assets/aa37c86d461f.png)
 
-**FLAG:** flag{69200c13dcb39de19a405e9d1f993821}  
+**FLAG:** flag{69200c13dcb39de19a405e9d1f993821}
