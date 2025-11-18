@@ -73,4 +73,4 @@ administrator|segment-8-of-8=58de
 
 Once obtained, they could be combined to form whole flag.
 
-**FLAG:** flag{47cb5cd46d7bb34a0d9c315a99bb58de}
+**FLAG:** flag{47cb5cd46d7bb34a0d9c315a99bb58de}  

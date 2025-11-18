@@ -38,8 +38,6 @@ Below is a list of links to the write-ups for each day of the competition.
     *   [🐞 For Greatness](./Day%2010/For_Greatness.md) - Malware
 *   Day 11
     *   [🔎 Trashcan](./Day%2011/Trashcan.md) - Forensics
-*   Day 12
-    *   [📦 Angler](./Day%2012/Angler.md) - Miscellaneous
 *   Day 13
     *   [🔎 I Forgot](./Day%2013/I_Forgot.md) - Forensics
 *   Day 14
@@ -48,8 +46,6 @@ Below is a list of links to the write-ups for each day of the competition.
     *   [📦 Phasing Through Printers](./Day%2015/Phasing_Through_Printers.md) - Miscellaneous
 *   Day 16
     *   [📦 Threat Actor Support Line](./Day%2016/Threat_Actor_Support_Line.md) - Miscellaneous
-*   Day 17
-    *   📦 vx-underground - Miscellaneous
 *   Day 18
     *   [🔍 Bussing Around](./Day%2018/Bussing_Around.md) - Forensics
 *   Day 19
@@ -58,10 +54,18 @@ Below is a list of links to the write-ups for each day of the competition.
     *   [🔍 Darcy](./Day%2020/Darcy.md) - Forensics
 *   Day 21
     *   [🕵️ Follow The Money](./Day%2021/Follow_the_Money.md) - OSINT
+*   Day 23
+    *   [🐞 NetSupport](./Day%2023/NetSupport.md) - Malware
 *   Day 24
     *   [🐞 Lizard.](./Day%2024/Lizard.md) - Malware
 *   Day 25
     *   [🐞 My Hawaii Vacation](./Day%2025/My_Hawaii_Vacation.md) - Malware
+*   Day 26
+    *   [🔍 Puzzle Pieces Redux](./Day%2026/Puzzle_Pieces_Redux.md) - Forensics
+*   Day 27
+    *   [🕵️ Follow the Money - The Sequel](./Day%2027/Follow_The_Money_-_The_Sequel.md) - OSINT
+*   Day 28
+    *   [🐞 Telestealer](./Day%2028/Telestealer.md) - Malware
 *   Day 29
     *   [⚒️ Trapped](./Day%2029/Trapped.md) - Binary Exploitation
 *   Day 31

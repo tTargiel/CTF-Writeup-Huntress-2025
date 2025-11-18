@@ -113,4 +113,4 @@ As expected, after removing the rootkit, a new directory named squiblydoo/ appea
 
 ![f70e4df3238a.png](../assets/f70e4df3238a.png)
 
-**FLAG:** flag{ce56efc41f0c7b45a7e32ec7117cf8b9} 
+**FLAG:** flag{ce56efc41f0c7b45a7e32ec7117cf8b9}  

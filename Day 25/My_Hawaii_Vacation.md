@@ -145,4 +145,4 @@ I used it as an archive password - and successfully accessed `flag.txt` contents
 
 ![72877695757e.png](../assets/72877695757e.png)
 
-**FLAG:** flag{0a741a06d3b8227f75773e3195e1d641} 
+**FLAG:** flag{0a741a06d3b8227f75773e3195e1d641}  

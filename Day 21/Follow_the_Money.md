@@ -84,4 +84,4 @@ Decoding this payload revealed the flag:
 
 ![6021ca5d49da.png](../assets/6021ca5d49da.png)
 
-**FLAG:** flag{kl1zklji2dycqedj6ef6ymlrsf180d0f}
+**FLAG:** flag{kl1zklji2dycqedj6ef6ymlrsf180d0f}  

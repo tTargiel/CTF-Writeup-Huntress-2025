@@ -168,4 +168,4 @@ It again contained base64 payload, that based on the powershell code - needed in
 
 Last part of the flag: `252962470}`
 
-**FLAG:** flag{7634269aea89c0434d59028252962470} 
+**FLAG:** flag{7634269aea89c0434d59028252962470}  

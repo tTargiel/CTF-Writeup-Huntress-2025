@@ -33,4 +33,4 @@ This command combination instantly located the patch containing the flag and rev
 
 This confirmed the flag found by the initial grep search and demonstrated the intended solution path for the challenge.
 
-**FLAG:** flag{a0c1e852e1281d134f0ac2b8615183a3}
+**FLAG:** flag{a0c1e852e1281d134f0ac2b8615183a3}  

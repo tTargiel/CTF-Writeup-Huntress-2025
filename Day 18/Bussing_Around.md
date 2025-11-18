@@ -38,4 +38,4 @@ Looking at the CyberChef output, I noticed a plain text string at the very end o
 
 ![55e33c5b3d46.png](../assets/55e33c5b3d46.png)
 
-**FLAG:** flag{4d2a66c5ed8bb8cd4e4e1ab32c71f7a3} 
+**FLAG:** flag{4d2a66c5ed8bb8cd4e4e1ab32c71f7a3}  

@@ -53,4 +53,4 @@ Once on the system, finding the flag was straightforward. It was located in the 
 
 ![9a7cca570310.png](../assets/9a7cca570310.png)
 
-**FLAG:** flag{6529440ceec226f31a3b2dc0d0b06965}
+**FLAG:** flag{6529440ceec226f31a3b2dc0d0b06965}  

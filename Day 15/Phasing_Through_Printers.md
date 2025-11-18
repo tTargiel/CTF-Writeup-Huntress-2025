@@ -67,4 +67,4 @@ I exploited this flaw to read `/root/flag.txt`:
 
 ![0e19df2fc7cd.png](../assets/0e19df2fc7cd.png)
 
-**FLAG:** flag{93541544b91b7d2b9d61e90becbca309} 
+**FLAG:** flag{93541544b91b7d2b9d61e90becbca309}  
